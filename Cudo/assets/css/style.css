@@ -1,0 +1,730 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Readex+Pro:wght@200&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+
+hr{
+    margin: auto;
+    max-width: 10%;
+    padding-top: 5px;
+    border: none;
+    margin-bottom: 25px;
+}
+
+/* Page1 Start */
+.page1{
+    /* background-color: #87509c; */
+    background: linear-gradient(to bottom, #87509c, rgb(255, 0, 98)) ;
+    padding: 60px 0 120px 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline;
+    padding: 15px 25px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font: 400 16px "Titillium Web" ;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.activepage1, nav ul li:hover{
+    background-color: #643a79;
+}
+
+.page1 h1{
+    font: 700 42px "Titillium Web";
+    line-height: 49px;
+    color: #f7f3ea;
+    text-align: center;
+    padding: 160px 0 80px 0;
+}
+
+.page1 button{
+    font: 600 18px "Titillium Web";
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    background-color: #eb7d4b;
+    border: none;
+    padding: 20px 80px;
+    border-radius: 7px;
+    border-bottom: 5px solid #c86a40;
+    cursor: pointer;
+}
+.page1 button:active{
+    background-color: #b36a48;
+    transform: translateY(4px);
+}
+.page1-button1{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width:768px){
+.container{
+     max-width: 90%;
+     margin: auto;
+}
+
+nav{
+    display: inline;
+}
+
+.page1-list{
+    padding-top: 25px;   
+}
+
+.page1-list ul{
+    padding-top: 25px; 
+}
+
+.page1-list ul li{
+ display: block;
+ margin-top: 10px;
+ max-width: 50%;
+}
+}
+/* Page1 End */
+/* Page2 Start */
+.page2{
+    background-color: #17c2a4;
+    padding: 90px 0 100px 0;
+}
+
+.page2-h1{
+    font: 700 40px "Titillium Web";
+    letter-spacing: 4px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0 25px 0;
+}
+
+.page2 hr{
+    background-color: #14a58c;
+}
+
+.page2-p{
+    font: 400 18px "Titillium Web";
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+text-align: center;
+}
+.page2-pics {
+    max-width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+.page2-pics img{
+padding-bottom: 65px;
+margin-left: 35px;
+}
+
+.page2-pic2 img{
+    margin-left: 70px;
+}
+
+.page2-pics h1{
+    font:700 24px "Titillium Web";
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.page2-pics p{
+    width: 204px;
+font: 300 16px "Titillium Web";
+letter-spacing: 0px;
+line-height: 24px;
+color: #ffffff;
+text-align: center;
+}
+
+@media only screen and (max-width:768px) {
+    .page2-pics{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .page2-pics div{
+        margin-top: 60px;
+    }
+}
+/* Page2 End */
+/* Page3 Start */
+.page3{
+    background: linear-gradient(to right, #ffffff, rgba(247, 118, 247, 0.533));
+    padding: 90px 0 100px 0;
+}
+
+.page3-h1{
+    font: 700 41px "Titillium Web";
+    letter-spacing: 4px;
+    line-height: 40px;
+    color: #3c4761;
+    text-align: center;
+    padding: 50px 0 25px 0;
+}
+
+.page3 hr{
+    background-color: #c8d9e5;
+}
+
+.page3-p{
+    font: 400 18px "Titillium Web";
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3c4761;
+    text-align: center;
+}
+
+.page3-pics {
+    max-width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+.page3-pic4-list, .page3-pic2-list{
+    margin-left: 20px;
+}
+
+.page3-pics h1{
+    font:700 24px "Titillium Web";
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #27283d;
+    text-align: center;
+    padding: 100px 0 25px 0;
+}
+
+.page3-pics a:not(:last-child){
+    text-decoration: none;
+    font: 400 16px "Titillium Web";
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #30bae7;
+    text-align: center;
+}
+
+.page3-pics a:not(:last-child), .page3-pics a:not(:first-child){
+    margin-left: 40px;
+}
+.page3-pics img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: -50px;
+}
+.page3-pics p{
+    width: 204px;
+    font: 300 16px "Titillium Web";
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #3c4761;
+    text-align: center;
+    padding: 20px 0 40px 0;
+}
+.page3-pics ul{
+    margin-left: -15px;
+}
+.page3-pics ul li{
+    display: inline;
+    justify-content: space-between;
+    padding: 6px;
+    background-color: #bdd1df;
+    border-radius: 50px;
+}
+
+.page3-pica a{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+.page3-pics ul li:not(:last-child){
+    margin-right: 10px;
+}
+
+.page3-pics ul li i{
+    color: #ffffff;
+}
+
+@media  only screen and (max-width:768px) {
+    .page3-pics{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .page3-pics div{
+        max-width: 90%;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+}
+/* Page3 End */
+
+/* Page4 Start */
+.page4{
+    background-color: #ffffff;
+    padding: 90px 0 120px 0;
+}
+
+.page4-h1{
+    font: 700 40px "Titillium Web";
+    letter-spacing: 4px;
+    line-height: 40px;
+    color: #3c4761;
+    text-align: center;
+    padding: 50px 0 25px 0;
+}
+
+.page4 hr{
+    background-color: #dfe8ed;
+}
+
+.page4-p{
+    font: 400 18px "Titillium Web";
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3c4761;
+    text-align: center;
+}
+
+.page4-pics {
+    max-width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+@media  only screen and (max-width:768px) {
+    .page4-pics{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .page4-pics div{
+        max-width: 90%;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+}
+/* Page4 End */
+
+/* Page5 Start */
+.page5{
+    background-color: #ffdd99;
+    padding: 90px 0 120px 0;
+}
+
+.page5-h1{
+    font: 700 40px "Titillium Web";
+    letter-spacing: 4px;
+    line-height: 40px;
+    color: #393939;
+    text-align: center;
+    padding: 50px 0 25px 0;
+}
+
+.page5 hr{
+    background-color: #e5c37f;
+}
+
+.page5-p{
+    font: 400 18px "Titillium Web";
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #393939;
+    text-align: center;
+}
+
+.page5 ul{
+    display: flex;
+    justify-content: center;
+    margin: 60px 50px 80px 0;
+}
+
+.page5 ul li{
+    display: inline;
+    padding: 15px 30px 15px 30px;
+    background-color: #ebc985;
+    border: none;
+    border-radius: 5px;
+}
+.page5 ul li:not(:last-child){
+    margin-right: 15px;
+}
+
+.page5 .activepage5, .page5 ul li:hover{
+    background-color: #ffffff;
+}
+
+.page5 ul li a{
+    font: 400 18px "Titillium Web";
+letter-spacing: 0px;
+line-height: 20px;
+color: #393939;
+text-decoration: none;
+}
+
+.page5-pics p{
+    font: 400 22px "Titillium Web";
+letter-spacing: 0px;
+line-height: 20px;
+color: #393939;
+margin: 30px 0 80px 25%;
+justify-content: center;
+}
+
+.page5-pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.page5 button{
+    font: 600 18px "Titillium Web";
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-top: 30px;
+    background-color: #17c2a4;
+    border: none;
+    padding: 20px 60px;
+    border-radius: 7px;
+    border-bottom: 5px solid #14a58c;
+    cursor: pointer;
+}
+.page5 button:active{
+    background-color: #14a58c;
+    transform: translateY(4px);
+}
+.page5-button1{
+    display: flex;
+    justify-content: center;
+}
+
+@media  only screen and (max-width:768px) {
+    .page5-pics, .page5 ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .page5 ul li{
+        margin-top: 10px;
+        max-width: 90%;
+       }
+
+    .page5-pics div{
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+}
+/* Page5 End */
+
+/* Page6 Start */
+.page6{
+    background-color: #d74680;
+    padding: 90px 0 120px 0;
+}
+
+.page6-h1{
+    font: 700 40px "Titillium Web";
+    letter-spacing: 4px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0 25px 0;
+}
+
+.page6 hr{
+    background-color: #b73c6d;
+}
+
+.page6-p{
+    font: 400 18px "Titillium Web";
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    text-align: center;
+}
+.page6-pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.page6-pica{
+    display: flex;
+    justify-content: space-between;
+}
+.page6-picaW{
+    margin-left: 50px;
+}
+
+.page6-picaC, .page6-picbC, .page6-piccC, .page6-picdC{
+    width: 170px;
+    height: 170px;
+    background-color: #787878;
+    margin-top: 60px;
+    border-radius: 50%;
+}
+
+.page6-picaC{
+      background-image: url(../img/chanel-iman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page6-picbC{
+    background-image: url(../img/adriana-lima.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page6-piccC{
+    background-image: url(../img/anne-hathaway.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page6-picdC{
+    background-image: url(../img/emma-stone.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page6-pics p{
+    width: 297px;
+    padding: 60px 0 20px 0;
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Titillium Web";
+}
+
+.page6-pics h1{
+    font-size: 24px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Titillium Web";
+}
+
+.page6-pics a{
+    font-size: 18px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffdd99;
+font-weight: 400;
+font-family: "Titillium Web";
+text-decoration: none;
+}
+
+@media only screen and (max-width:768px) {
+        .page6-pics div{
+            display: flex;
+            flex-direction: column;
+        }
+        .page6-picaC, .page6-picbC, .page6-piccC, .page6-picdC{
+            width: 130px;
+            height: 130px;
+            background-color: #787878;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        .page6-pics p{
+            width: 197px;
+            font-size: 14px;
+            line-height: 1.5;
+              }
+        
+        .page6-pics h1{
+            font-size: 18px;
+        }
+        
+        .page6-pics a{
+            font-size: 11px;
+        }
+}
+/* Page6 End */
+
+/* Page7 Start */
+.page7{
+    background-color: #3c5499;
+    padding: 80px 0 120px 0;
+}
+
+.page7-h1{
+    font: 700 40px "Titillium Web";
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0 25px 0;
+}
+
+.page7 hr{
+    background-color: #273a71;
+}
+
+.page7-p{
+    font: 400 18px "Titillium Web";
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.form-inputs{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.form-inputs input{
+    background-color: #273a71;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 215px 18px 25px;
+}
+.form-inputs input::placeholder{
+    font:400 18px "Titillium Web";
+    line-height: 18px;
+    color: #ffffff;
+}
+
+textarea{
+    background-color: #273a71;
+    border: none;
+    border-radius: 5px;
+    font:400 18px "Titillium Web";
+    line-height: 18px;
+    color: #ffffff;
+    padding: 18px 0 18px 25px;
+    margin: 5px 0 65px 180px;
+}
+
+.page7 button{
+    font: 600 18px "Titillium Web";
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    background-color: #30bae7;
+    border: none;
+    padding: 20px 80px;
+    border-radius: 7px;
+    border-bottom: 5px solid #299ec5;
+    cursor: pointer;
+}
+.page7 button:active{
+    background-color: #299ec5;
+    transform: translateY(4px);
+}
+.page7-button1{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width:768px) {   
+    .form-inputs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;     
+    }   
+
+    .form-inputs input{
+        margin-top: 20px;
+    }
+
+    .page7 textarea{
+        width: 85%;
+        height: 100px;
+        margin: 5px 0 65px 40px;
+    }
+}
+/* Page7 End */
+
+/* Footer Start */
+.footer{
+    background-color: #344b8e;
+    padding: 50px 0 50px 0;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul li{
+    display: inline;
+    margin-left: 90px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    font: 600 20px "Titillium Web" ;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+footer .activefooter a, footer ul li a:hover{
+    color: #319fd1;
+}
+
+
+@media only screen and (max-width:768px){  
+    footer ul li{
+        margin-left: 60px;
+
+    }
+    
+    footer ul li{
+     display: block;
+     margin-top: 20px;
+    }
+    }
+/* Footer End */
